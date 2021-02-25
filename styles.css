@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #009500;
+
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.box {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #000;
+    padding: 50px;
+    border-radius: 3px;
+
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#hrs,
+#mins,
+#secs,
+.colon {
+    animation: colorChange 3s ease-in-out 0s infinite alternate;
+}
+
+/* Slight color change just for fun :) */
+@keyframes colorChange {
+    0% {
+        color: #00FF33;
+    }
+
+    25% {
+        color: #00FF66;
+    }
+
+    50% {
+        color: #33FF00;
+    }
+
+    75% {
+        color: #33FF33;
+    }
+
+    100% {
+        color: #66FF66;
+    }
+}
