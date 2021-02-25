@@ -1,6 +1,6 @@
 # ClockJS-Retro
 
-**ClockJS-Retro** is a basic Clock made in **JavaScript** in a Retro / Old School Terminal Color Scheme.
+**ClockJS-Retro** is a basic Clock made with **HTML, CSS & JavaScript** in a Retro / Old School Terminal Color Scheme.
 
 This project makes the use of following :
 
