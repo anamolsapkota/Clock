@@ -14,4 +14,3 @@ You can fork this repo if you want.
 ## Screenshot
 
 <img src="demo.png">
-=======
